@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Γιώργος - Ψηφιακή Κάρτα</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: white;
+            padding: 40px 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            text-align: center;
+            max-width: 420px;
+            width: 90%;
+        }
+        .profile-img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 3px solid #2c3e50;
+        }
+        h1 { margin: 0; font-size: 26px; color: #2c3e50; }
+        h2 { margin: 5px 0 20px; font-size: 15px; color: #7f8c8d; font-weight: normal; }
+        p { font-size: 14.5px; line-height: 1.6; margin-bottom: 30px; color: #555; }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 14px 0;
+            margin-bottom: 12px;
+            background-color: #2c3e50;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: background 0.3s, transform 0.1s;
+            box-sizing: border-box;
+        }
+        .btn:hover { 
+            background-color: #1a252f; 
+            transform: translateY(-2px);
+        }
+        .btn-primary { background-color: #2980b9; }
+        .btn-primary:hover { background-color: #1f618d; }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <!-- Βάλε εδώ το link της φωτογραφίας σου (π.χ. URL από το LinkedIn) -->
+    <img src="https://via.placeholder.com/130" alt="Profile Picture" class="profile-img">
+    
+    <h1>Γιώργος</h1>
+    <h2>Chemist & Scientific Researcher | Academic Instructor</h2>
+    
+    <p>Ερευνητής με έμφαση στην ανόργανη χημεία, τη σύνθεση upconversion nanoparticles, περοβσκιτών και covalent organic frameworks. Εξειδίκευση στην ανάλυση δεδομένων (FE-SEM, XRD) και στην ακαδημαϊκή διδασκαλία.</p>
+    
+    <!-- Εδώ βάζεις τα δικά σου links -->
+    <a href="ΒΑΛΕ_ΤΟ_LINK_ΤΟΥ_PDF_ΕΔΩ" class="btn btn-primary" target="_blank">📄 Λήψη Βιογραφικού (PDF)</a>
+    <a href="mailto:το_email_σου@example.com" class="btn">✉️ Επικοινωνία (Email)</a>
+    <a href="https://linkedin.com/in/το_προφιλ_σου" class="btn" target="_blank">💼 LinkedIn</a>
+</div>
+
+</body>
+</html>
